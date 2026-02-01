@@ -8,7 +8,7 @@ export fn goodbye(name: str) -> str {
   return "Goodbye, " + name + "!"
 }
 
-exprot fn welcome(name: str) -> str {
+export fn welcome(name: str) -> str {
   return "Welcome, " + name + "! Nice to meet you."
 }
 
