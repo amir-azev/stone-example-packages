@@ -9,7 +9,7 @@ Example packages for the [Stone programming language](https://github.com/amir-az
 Simple greeting generator.
 
 ```stone
-import { hello, welcome } from "greeter"
+import hello, welcome from greeter
 
 print(hello("World"))     // Hello, World!
 print(welcome("Alice"))   // Welcome, Alice! Nice to meet you.
